@@ -12,4 +12,13 @@ public class Address {
     private String street;
     private String dtlInfo;
 
+    protected Address() {
+    }
+
+    public Address(String region, String street, String dtlInfo) {
+        this.region = region;
+        this.street = street;
+        this.dtlInfo = dtlInfo;
+    }
+
 }

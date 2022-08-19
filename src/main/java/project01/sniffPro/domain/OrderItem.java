@@ -27,4 +27,7 @@ public class OrderItem {
 
     private int orderPrice; //금액
     private int count; //수량
+
+    public void cancel() {
+    }
 }
