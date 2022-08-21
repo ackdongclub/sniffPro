@@ -1,4 +1,4 @@
-package project01.sniffPro.domain.service;
+package project01.sniffPro.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

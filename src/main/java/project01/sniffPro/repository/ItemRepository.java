@@ -1,5 +1,6 @@
 package project01.sniffPro.repository;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import project01.sniffPro.domain.item.Item;
@@ -8,10 +9,10 @@ import javax.persistence.EntityManager;
 import java.util.List;
 
 @Repository
-@Transactional
+@RequiredArgsConstructor
 public class ItemRepository {
 
-    private EntityManager em;
+    private final EntityManager em;
 
     public void save(Item item) {
         //저장하는 아이템의 아이디가 없으면 저장 그렇지 않으면 이름 업데이트
