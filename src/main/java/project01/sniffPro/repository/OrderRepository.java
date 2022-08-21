@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 import project01.sniffPro.domain.Order;
 
 import javax.persistence.EntityManager;
-import java.util.List;
 
 @Repository
 @RequiredArgsConstructor

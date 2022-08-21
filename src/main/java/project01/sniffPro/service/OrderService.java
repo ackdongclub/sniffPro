@@ -17,8 +17,9 @@ import project01.sniffPro.repository.UserRepository;
 @RequiredArgsConstructor
 public class OrderService {
 
-    private final OrderRepository orderRepository;
     private final UserRepository userRepository;
+    private final OrderRepository orderRepository;
+
     private final ItemRepository itemRepository;
 
     //주문
