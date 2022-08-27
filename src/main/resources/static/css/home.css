@@ -1,0 +1,37 @@
+body{
+    margin:20px 50px 20px 50px;
+}
+
+#tlt {
+    display:flex;
+}
+
+#sniffPro{
+    font-size:30px;
+    color:black;
+    text-decoration-line:none;
+}
+
+#img_tlt {
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    padding-top:50px;
+    padding-bottom: 50px;
+    border:1px solid red;
+}
+
+#menus {
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    background-color:black;
+    margin-top:30px;
+}
+
+.menuM {
+    font-size:15px;
+    color:white;
+    text-decoration-line:none;
+    margin:20px;
+}
