@@ -11,7 +11,6 @@ import javax.persistence.Enumerated;
 @Entity
 @DiscriminatorValue("P")
 @Getter
-@Setter
 public class Pet extends Item{
 
     private int Age;
