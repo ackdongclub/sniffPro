@@ -2,7 +2,6 @@ package project01.sniffPro.repository;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
 import project01.sniffPro.domain.item.Item;
 
 import javax.persistence.EntityManager;

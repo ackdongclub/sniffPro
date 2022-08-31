@@ -40,4 +40,8 @@ public abstract class Item {
         }
         this.stock = reStock;
     }
+
+    public void addPet(Pet pet) {
+
+    }
 }

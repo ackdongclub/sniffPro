@@ -10,11 +10,9 @@ import javax.persistence.Enumerated;
 
 @Entity
 @DiscriminatorValue("P")
-@Getter
+@Getter @Setter
 public class Pet extends Item{
 
     private int Age;
-
-    @Enumerated(EnumType.STRING)
-    private Gender gender; // M, F
+    private String gender; // none, M, F
 }
