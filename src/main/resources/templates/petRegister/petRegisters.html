@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: header" />
+
+<title>petRegister</title>
+<body>
+    <div id="wrap">
+        <div id="title">유기견 등록 신청</div>
+        <div th:replace="fragments/bodyHeader :: bodyHeader" />
+
+        <form role="form" action="/members/new" th:object="${memberForm}" method="post">
+        <!-- Post data -->
+            <div>
+                <thread>
+                    <div>
+                        <th>이름</th>
+                        <th>견종</th>
+                        <th>#</th>
+                        <th>#</th>
+                    </div>
+                </thread>
+            </div>
+    </div>
+</body>
+</html>
