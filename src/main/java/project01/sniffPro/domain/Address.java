@@ -1,6 +1,7 @@
 package project01.sniffPro.domain;
 
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
 import javax.persistence.Embeddable;
 
@@ -12,5 +13,14 @@ public class Address {
     private String street;
     private String zipcode;
 
+    protected Address(){
+
+    }
+
+    public Address(String city, String street, String zipcode) {
+        this.city = city;
+        this.street = street;
+        this.zipcode = zipcode;
+    }
 
 }
